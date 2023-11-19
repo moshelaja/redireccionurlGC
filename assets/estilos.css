@@ -1,0 +1,34 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #9b8f79;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#svg-path {
+  fill: #cdcdcd;
+}
+
+svg {
+  width: 150px;
+  height: 150px;
+}
+
+#svg1 {
+  width: 35px;
+  height: 35px;
+}
+
+#svg-path1 {
+  fill: #84939c;
+}

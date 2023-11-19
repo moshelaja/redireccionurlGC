@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--   TODO: title- entre 55 y 65 caracteres-->
+  <title>Aprendiendo Html</title>
+  <!-- TODO: description- no más de 165 caracteres  -->
+  <meta name="description" content="En esta página estamos aprendiendo los fndamentos de Html con jonmircha@">
+  <style>
+    h2 {
+      color: #738678;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+
+<body>
+  <h2 id="inicio">Aprendiendo Html</h2>
+  <!-- Este es un comentario -->
+  <!-- Enlaces de la documentación de HTML:
+  - https://www.w3.org/html/
+  - https://html.spec.whatwg.org/
+  - https://www.w3.org/blog/news/archives...
+  - https://developer.mozilla.org/es/docs...
+HTML Reference - https://htmlreference.io/ -->
+  <p>Este es mi primer párrafo</p>
+  <p>Aprendiendo sobre Diseño Web</p>
+  <h3>Temario del Curso</h3>
+  <ul>
+    <li><a href="index.html#encabezados">Encabezados Html</a></li>
+    <li><a href="index.html#texto-basico">Etiquetas de Texto Básicas</a></li>
+    <li><a href="index.html#texto-semanticos">Etiquetas de Texto Semánticas</a></li>
+    <li><a href="index.html#etiqueta-saltos">Etiquetas de Saltos</a></li>
+    <li><a href="index.html#etiqueta-formateo">Etiquetas de Formateo</a></li>
+    <li><a href="index.html#etiqueta-estructurales">Etiquetas Semánticas Estructurales</a></li>
+    <li><a href="index.html#bloque-linea">Etiquetas de Bloque VS Etiquetas de Linea</a></li>
+    <li><a href="index.html#estilos-css">Estilos CSS en HTML</a></li>
+    <li><a href="index.html#script-html">Scripts en HTML</a></li>
+    <li><a href="index.html#imagenes">Imágenes</a></li>
+    <li><a href="index.html#svg">SVG</a></li>
+    <li><a href="index.html#figuras">Figuras</a></li>
+    <li><a href="index.html#listas-ordenadas">Listas Ordenadas</a></li>
+    <li><a href="index.html#listas-desordenadas">Listas Desordenadas</a></li>
+    <li><a href="index.html#lista-definicion">Listas de Definición</a></li>
+    <li><a href="index.html#tablas">Tablas</a></li>
+    <li><a href="index.html#enlaces">Enlaces</a></li>
+    <li><a href="index.html#"></a></li>
+  </ul>
+  <hr>
+  <h2 id="encabezados">Encabezados Html</h2>
+  <h1>Encabezado nivel 1</h1>
+  <h2>Encabezado nivel 2</h2>
+  <h3>Encabezado nivel 3</h3>
+  <h4>Encabezado nivel 4</h4>
+  <h5>Encabezado nivel 5</h5>
+  <h6>Encabezado nivel 6</h6>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="texto-basico">Etiquetas de Texto Básicas</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptas corrupti, unde itaque, distinctio soluta
+    explicabo accusantium nobis ratione accusamus eos impedit ea laboriosam iste dolorem cumque ipsa temporibus. Magnam!
+  </p>
+  <p>Palabras en:
+  <ul>
+    <li><b>Negrita</b></li>
+    <li><i>Cursiva</i></li>
+    <li><u>Subrayado</u></li>
+    <li>SuperIndice: E=mc<sup>2</sup></li>
+    <li>SubIndice: H<sub>2</sub>O</li>
+    <li>Marcado de texto: <mark>Marca texto</mark>
+    <li><small>Letras pequeñas</small></li>
+  </ul>
+  </p>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="texto-semanticos">Etiquetas de Texto Semánticas</h2>
+  <p>De acuerdo a la Semántica:
+  <ul>
+    <li><Strong>Este texto es importante</Strong></li>
+    <li><q> Sólo sé, que no sé nada </q><cite> Sócrates</cite> </li>
+  </ul>
+  </p>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="etiqueta-saltos">Etiquetas de Saltos</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Corrupti dolore ab maxime veritatis alias aliquam
+    fuga, iusto ipsum cum vero asperiores amet consectetur atque debitis deserunt possimus quam eius perspiciatis.
+  </p>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="etiqueta-formateo">Etiquetas de Formateo</h2>
+  <p>
+  <pre>
+Tareas por Hacer:
+-HTML
+    -Terminar de grabar las secciones de este curso.
+    -Editar en un sólo Video.
+-CSS
+    -Comenzar a grabar secciones CSS.
+    -Editar en un sólo Video.
+    </pre>
+  </p>
+  <p>
+  <pre>
+      <code>'Este Texto esta en formato de Código'</code>
+    </pre>
+  </p>
+  <ul>
+    <li>
+      <pre>
+      <code data-lang="react">
+    import React from "react";
+    import Title from "./Title";
+      function App {
+      return &lt;Title/&gt;
+    }
+    </code>
+  </pre>
+    </li>
+  </ul>
+  <pre>some.code('    ');</pre>
+  <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="etiqueta-estructurales">Etiquetas Semánticas Estructurales</h2>
+  <div>div - Es una etiqueta contenedora que no tiene Semántica</div>
+  <header>header - cabecera de un sitio Web ó de una Sección</header>
+  <main>main - Define la Sección principal del Documento, sólo puede existir una Sección main por documento.</main>
+  <footer>footer - Pie de página de un sitio Web ó de una Sección</footer>
+  <nav>nav - Representa una navegación</nav>
+  <article>article - Representa una Sección de autocontenido (que por sí sola se explica)</article>
+  <aside>aside - Representa contenido complementario ó secundario</aside>
+  <section>section - Representa una Sección de contenido genérico</section>
+  <address>address - Representa una información de contacto</address>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="bloque-linea">Etiquetas de Bloque VS Etiquetas de Linea</h2>
+  <div style="background-color: #383E42; color: white;">La etiqueta de Bloque por excelencia es el div, una etiqueta de
+    Bloque es aquella que genera saltos de linea con sus Etiquetas hermanas</div>
+  <span style="background-color: #87794E; color: white;">La etiqueta de Linea por excelencia es el span, una etiqueta de
+    linea sólo ocupa el espacio necesario que tiene su contenido</span>
+  <span style="background-color: #536878; color: whitesmoke;">Hola! soy otro Span</span>
+  <br>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="estilos-css">Estilos CSS en HTML</h2>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="script-html">Scripts en HTML</h2>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="imagenes">Imágenes</h2>
+  <img src="img/tablaHtml.jpeg" alt="Tabla de etiquetas HTML">
+  <img src="img/encaje_hilo.jpeg" alt="Hombre mordiendo encaje">
+  <!--   <img src="img/p3_v1.gif" alt="partida entre Fisher vs Keres">-->
+  <img src="img/precision_manufacturing_FILL1_wght700_GRAD200_opsz48.svg" alt="Maquina de presición">
+  <br>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="svg">SVG</h2>
+  <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+    <path
+      d="M153-107v-124h144l-93-317q-45-12-71.5-46.5T106-682q0-55 41-96.5t96-41.5q51 0 87.5 29t48.5 80h111v-60q0-17 11-28.5t28-11.5q8 0 16.5 6.5T554-786l68-65q11-10 26.5-13.5T680-861l157 76q13 7 18.5 20.5T853-736q-8 12-21.5 16t-25.5-4l-147-72-89 90v42l89 94 147-71q14-7 25.5-4t21.5 16q7 14 1.5 29T836-578l-149 70q-19 9-36.5 8T622-513l-68-64q0 14-7 19t-18 5q-17 0-28-12t-11-28v-61H378q-2 19-13.5 40T342-585l182 354h184v124H153Zm90-518q24 0 40.5-16.5T300-682q0-25-16.5-41.5T243-740q-25 0-41.5 16.5T185-682q0 24 16.5 40.5T243-625Z"
+      id="svg-path" />
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+    <path
+      d="m258-86-12-88 127-349q14 16 32.5 25.5T444-485L322-148l-64 62Zm445 0-65-62-124-336q20-3 39-12.5t33-25.5l128 348-11 88ZM480.235-503q-55.735 0-95.485-39.644T345-638.208q0-46.232 27-83.012t69-46.54V-860h79v92q41 10 68 46.78t27 83.012q0 55.92-39.515 95.564Q535.971-503 480.235-503Zm-.112-80q22.427 0 38.652-16.348T535-638.123q0-22.427-16.348-39.152T479.877-694q-22.427 0-38.652 16.63T425-637.895q0 22.42 16.348 38.657Q457.696-583 480.123-583Z"
+      id="svg-path" />
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+    <path
+      d="M99-59v-169q0-38.462 26.475-65.231Q151.95-320 190-320h51l22-159H148v-84h665v84H698l22 159h50q38.463 0 65.231 26.769Q862-266.462 862-228v169H99Zm147-564-61-280q35 35 77.5 47.5t77.524 12.5Q375-843 410-855t70-48q35 36 69.5 48t69.963 12Q656-843 700-856q44-13 79-47l-63 280H246Z"
+      id="svg-path" />
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+    <path
+      d="M0-360v-240h60v80h80v-80h60v240h-60v-100H60v100H0Zm310 0v-180h-70v-60h200v60h-70v180h-60Zm170 0v-200q0-17 11.5-28.5T520-600h180q17 0 28.5 11.5T740-560v200h-60v-180h-40v140h-60v-140h-40v180h-60Zm320 0v-240h60v180h100v60H800Z"
+      id="svg-path" />
+  </svg>
+  <br>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="figuras">Figuras</h2>
+  <figure>
+    <img src="img/tablaPeriodicaHtml.jpeg" alt="Tabla de los elementos HTML">
+    <figcaption>Fig.1.1. Tabla de los elementos HTML</figcaption>
+  </figure>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+  <h3>Estaciones</h3>
+  <ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol start="3">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol reversed>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol type="i">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="listas-desordenadas">Listas Desordenadas</h2>
+  <h3>Cosas por Hacer</h3>
+  <ul>
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el Video final</li>
+    <li>Subir a YouTube</li>
+  </ul>
+  <ul type="circle">
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el Video final</li>
+    <li>Subir a YouTube</li>
+  </ul>
+  <ul type="square">
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el Video final</li>
+    <li>Subir a YouTube</li>
+  </ul>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="lista-definicion">Listas de Definición</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Es un Lenguaje de Marcado que define el contenido Web.</dd>
+    <dt>CSS</dt>
+    <dd>Es un Lenguaje de Definición de Estilos al código HTML</dd>
+    <dt>JavaScript</dt>
+    <dd>Es el Lenguaje de la Web.</dd>
+  </dl>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="tablas">Tablas</h2>
+  <table>
+    <tr>
+      <td>Pieza</td>
+      <td>Material</td>
+      <td>Elaboración</td>
+    </tr>
+    <tr>
+      <td>Rey</td>
+      <td>Madera</td>
+      <td>Rugoso</td>
+    </tr>
+    <tr>
+      <td>Caballo</td>
+      <td>Marfil</td>
+      <td>Púlido</td>
+    </tr>
+    <tr>
+      <td>Álfil</td>
+      <td>Metal</td>
+      <td>Obra de Arte</td>
+    </tr>
+  </table>
+  <br><br><br>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Tabla: Inmortal Game</th>
+      </tr>
+      <tr>
+        <th>Pieza</th>
+        <th>Material</th>
+        <th>Elaboración</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rey</td>
+        <td>Madera</td>
+        <td>Rugoso</td>
+      </tr>
+      <tr>
+        <td>Caballo</td>
+        <td>Marfil</td>
+        <td>Púlido</td>
+      </tr>
+      <tr>
+        <td>Álfil</td>
+        <td rowspan="3">Metal</td>
+        <td>Obra de Arte</td>
+      </tr>
+      <tr>
+        <td>Dama</td>
+        <td>Geminis</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="3"><small>Inmortal Game fué creado en Francia</small></th>
+      </tr>
+    </tfoot>
+  </table>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <hr>
+  <h2 id="enlaces">Enlaces</h2>
+  <a href="hola.html">Hacia la Página: Hola</a>
+  <br>
+  <a href="https://jonmircha.com/cursos" target="_blank" rel="nofollow">Visita mi Sitio Web: jonmircha.com</a>
+  <br>
+  <a href="https://jonmircha.com" target="_blank" rel="nofollow">
+    <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+      <path
+        d="M153-107v-124h144l-93-317q-45-12-71.5-46.5T106-682q0-55 41-96.5t96-41.5q51 0 87.5 29t48.5 80h111v-60q0-17 11-28.5t28-11.5q8 0 16.5 6.5T554-786l68-65q11-10 26.5-13.5T680-861l157 76q13 7 18.5 20.5T853-736q-8 12-21.5 16t-25.5-4l-147-72-89 90v42l89 94 147-71q14-7 25.5-4t21.5 16q7 14 1.5 29T836-578l-149 70q-19 9-36.5 8T622-513l-68-64q0 14-7 19t-18 5q-17 0-28-12t-11-28v-61H378q-2 19-13.5 40T342-585l182 354h184v124H153Zm90-518q24 0 40.5-16.5T300-682q0-25-16.5-41.5T243-740q-25 0-41.5 16.5T185-682q0 24 16.5 40.5T243-625Z"
+        id="svg-path" />
+    </svg>
+  </a>
+  <br>
+  <a href="index.html#inicio"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+      id="svg1">
+      <path
+        d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z"
+        id="svg-path1" />
+    </svg></a>
+  <br>
+  <a href="mailto:hola@karlosmog.com">Enlace a Correo Electrónico</a>
+  <br>
+  <a href="tel:5804163031596">Enlace a Télefono</a>
+  <hr>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <script>
+    console.log("Hola! Estamos aprendiendo HTML");
+  </script>
+  <script src="assets/codigos.js"></script>
+</body>
+
+</html>
